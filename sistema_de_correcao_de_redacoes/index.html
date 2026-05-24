@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Correção de Redação</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.0/html2canvas.min.js"></script>
+</head>
+<body>
+
+    <div class="pagina">
+
+        <div class="topo-layout">
+
+            <!-- PAINEL ESQUERDO -->
+            <aside class="painel-controle">
+                <div class="card painel-card">
+                    <input type="file" id="input-imagem" accept="image/*" class="botaoSeletorCarregar">
+
+                    <button id="botao-carregar-imagem" class="botaoCarregar">Enviar Imagem</button>
+                    <button id="botao-girar" class="botaoGirar">Girar Imagem</button>
+                    <button id="botao-salvar" class="botaoSalvar">Salvar Imagem da Redação</button>
+                    <button id="botao-txt" class="botaoTXT">Exportar Correção da Redação</button>
+
+                    <div class="campo">
+                        <label for="size-select">Tamanho do Marcador</label>
+                        <select id="size-select">
+                            <option value="10" selected>Muito Pequeno</option>
+                            <option value="20">Pequeno</option>
+                            <option value="40">Médio</option>
+                            <option value="80">Grande</option>
+                        </select>
+                    </div>
+
+                    <div class="campo">
+                        <label for="color-select">Cor do Marcador</label>
+                        <select id="color-select">
+                            <option value="red" selected>Vermelho</option>
+                            <option value="orange">Laranja</option>
+                            <option value="blue">Azul</option>
+                            <option value="green">Verde</option>
+                            <option value="pink">Rosa</option>
+                            <option value="grey">Cinza</option>
+                        </select>
+                    </div>
+
+                    <div class="campo">
+                        <label for="criterio-select">Critério de Correção</label>
+                        <select id="criterio-select">
+                            <option value="Falta de coerência e coesão textual" selected>Falta de coerência e coesão textual</option>
+                            <option value="Estrutura textual equivocada">Estrutura textual equivocada</option>
+                            <option value="Uso incorreto da gramática">Uso incorreto da gramática</option>
+                            <option value="Problemas na ortografia e pontuação">Problemas na ortografia e pontuação</option>
+                            <option value="Uso de vocabulário e expressões idiomáticas">Uso de vocabulário e expressões idiomáticas</option>
+                            <option value="Falta de coerência argumentativa">Falta de coerência argumentativa</option>
+                            <option value="Originalidade e criatividade">Originalidade e criatividade</option>
+                            <option value="Fuga do tema proposto">Fuga do tema proposto</option>
+                            <option value="Mau uso de recursos argumentativos">Mau uso de recursos argumentativos</option>
+                            <option value="Erro de adequação ao gênero textual">Erro de adequação ao gênero textual</option>
+                        </select>
+                    </div>
+
+                    <div class="lista-box">
+                        <div class="lista-topo">
+                            <h2>Erros Marcados</h2>
+                            <span id="contador-marcadores">0</span>
+                        </div>
+
+                        <div class="listamarcadores" id="listamarcadores">
+                            <p class="vazio">Nenhum marcador adicionado ainda.</p>
+                            <p class="vazio">Clique na imagem para adicionar marcadores.</p>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- REDAÇÃO -->
+            <section class="area-redacao">
+                <div class="card redacao-card">
+
+                    <div class="topo-redacao">
+                        <div class="titulo-redacao">
+                            <h1>Correção de Redação</h1>
+                            <p>Marque, organize e exporte suas correções de forma prática.</p>
+                        </div>
+
+                        <div class="acoes-zoom">
+                            <button type="button" id="zoom-in">+</button>
+                            <button type="button" id="zoom-out">−</button>
+                            <button type="button" id="zoom-reset">⤢</button>
+                        </div>
+                    </div>
+
+                    <div class="image-container" id="image-container">
+                        <img class="image" src="img/Redação.png" alt="Imagem da redação" id="imagem">
+                        <div class="zoom-box" id="zoom-box"></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- TUTORIAL -->
+        <section class="tutorial-area">
+            <div class="card tutorial-card">
+                <h3>Tutorial</h3>
+
+                <div class="tutorial-grid">
+                    <div class="tutorial-item">
+                        <div class="tutorial-numero">1</div>
+                        <p>Selecione a foto da redação que deseja corrigir.</p>
+                    </div>
+
+                    <div class="tutorial-item">
+                        <div class="tutorial-numero">2</div>
+                        <p>Clique no botão <strong>Enviar Imagem</strong>.</p>
+                    </div>
+
+                    <div class="tutorial-item">
+                        <div class="tutorial-numero">3</div>
+                        <p>Escolha o tamanho do marcador, a cor e o critério de correção.</p>
+                    </div>
+
+                    <div class="tutorial-item">
+                        <div class="tutorial-numero">4</div>
+                        <p>Depois das marcações, salve a imagem ou exporte a correção em TXT.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 Desenvolvedora Neidiman Raposo — Todos os direitos reservados.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

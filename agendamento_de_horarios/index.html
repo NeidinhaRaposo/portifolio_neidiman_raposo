@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hope Agenda - Agende serviços de beleza, saúde, dentário e petshop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <i class="fas fa-book"></i>
+                    <span>Hope Agenda</span>
+                </div>
+                
+                <div class="nav-menu">
+                    <a href="#home" class="nav-link">Início</a>
+                    <a href="#categorias" class="nav-link">Categorias</a>
+                    <a href="#como-funciona" class="nav-link">Como Funciona</a>
+                    <a href="#parceiros" class="nav-link">Para Negócios</a>
+                </div>
+
+                <div class="nav-buttons">
+                    <button class="btn btn-outline">Entrar</button>
+                    <button class="btn btn-primary">Cadastrar</button>
+                </div>
+
+                <div class="nav-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Encontre e <strong>agende</strong> serviços de 
+                    <span class="text-gradient">beleza, saúde, dentário e petshop</span>.
+                </h1>
+                <p class="hero-subtitle">
+                    A qualquer hora, de qualquer lugar. Bora agendar com a Hope Agenda?
+                </p>
+                
+                <div class="search-container">
+                    <div class="search-box">
+                        <i class="fas fa-search"></i>
+                        <input type="text" placeholder="O que você está procurando?" class="search-input">
+                        <button class="search-btn">BUSCAR</button>
+                    </div>
+                </div>
+
+                <div class="hero-apps">
+                    <p>Também disponível em:</p>
+                    <div class="app-buttons">
+                        <a href="#" class="app-btn">
+                            <i class="fab fa-google-play"></i>
+                            <span>Google Play</span>
+                        </a>
+                        <a href="#" class="app-btn">
+                            <i class="fab fa-apple"></i>
+                            <span>Apple Store</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-image">
+                <div class="floating-card">
+                    <div class="card-header">
+                        <div class="avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="user-info">
+                            <h4>Maria Silva</h4>
+                            <p>Cliente VIP</p>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="appointment">
+                            <i class="fas fa-calendar-alt"></i>
+                            <div>
+                                <p>Consulta Dermatológica</p>
+                                <small>Hoje, 14:00</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories" id="categorias">
+        <div class="container">
+            <h2 class="section-title">Categorias</h2>
+            <div class="categories-grid">
+                <div class="category-card" data-category="beleza">
+                    <div class="category-icon">
+                        <i class="fas fa-spa"></i>
+                    </div>
+                    <h3>Beleza</h3>
+                    <p>Cabelo, unhas, maquiagem, depilação</p>
+                </div>
+                
+                <div class="category-card" data-category="saude">
+                    <div class="category-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <h3>Saúde</h3>
+                    <p>Consultas, exames, terapias</p>
+                </div>
+                
+                <div class="category-card" data-category="dentario">
+                    <div class="category-icon">
+                        <i class="fas fa-tooth"></i>
+                    </div>
+                    <h3>Dentário</h3>
+                    <p>Limpeza, tratamento, ortodontia</p>
+                </div>
+                
+                <div class="category-card" data-category="petshop">
+                    <div class="category-icon">
+                        <i class="fas fa-paw"></i>
+                    </div>
+                    <h3>Pet Shop</h3>
+                    <p>Banho, tosa, veterinário</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Businesses -->
+    <section class="featured">
+        <div class="container">
+            <h2 class="section-title">
+                Agende serviços nos melhores estabelecimentos do Brasil
+            </h2>
+            
+            <div class="businesses-grid">
+                <div class="business-card">
+                    <div class="business-image">
+                        <img src="https://via.placeholder.com/300x200/4F46E5/FFFFFF?text=Salão+Beleza" alt="Salão Beleza">
+                        <div class="business-badge">Beleza</div>
+                    </div>
+                    <div class="business-info">
+                        <h3>Salão Beleza & Estética</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> Centro, São Paulo</p>
+                        <div class="business-rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span>(127 avaliações)</span>
+                        </div>
+                        <button class="btn btn-primary">Agendar</button>
+                    </div>
+                </div>
+
+                <div class="business-card">
+                    <div class="business-image">
+                        <img src="https://via.placeholder.com/300x200/10B981/FFFFFF?text=Clínica+Saúde" alt="Clínica Saúde">
+                        <div class="business-badge">Saúde</div>
+                    </div>
+                    <div class="business-info">
+                        <h3>Clínica Saúde Integral</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> Jardins, Rio de Janeiro</p>
+                        <div class="business-rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <span>(89 avaliações)</span>
+                        </div>
+                        <button class="btn btn-primary">Agendar</button>
+                    </div>
+                </div>
+
+                <div class="business-card">
+                    <div class="business-image">
+                        <img src="https://via.placeholder.com/300x200/F59E0B/FFFFFF?text=Consultório+Dental" alt="Consultório Dental">
+                        <div class="business-badge">Dentário</div>
+                    </div>
+                    <div class="business-info">
+                        <h3>Consultório Dental Dr. Silva</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> Vila Madalena, São Paulo</p>
+                        <div class="business-rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span>(156 avaliações)</span>
+                        </div>
+                        <button class="btn btn-primary">Agendar</button>
+                    </div>
+                </div>
+
+                <div class="business-card">
+                    <div class="business-image">
+                        <img src="https://via.placeholder.com/300x200/EF4444/FFFFFF?text=Pet+Shop" alt="Pet Shop">
+                        <div class="business-badge">Pet Shop</div>
+                    </div>
+                    <div class="business-info">
+                        <h3>Pet Shop Amigo Fiel</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> Copacabana, Rio de Janeiro</p>
+                        <div class="business-rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span>(203 avaliações)</span>
+                        </div>
+                        <button class="btn btn-primary">Agendar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How it Works -->
+    <section class="how-it-works" id="como-funciona">
+        <div class="container">
+            <h2 class="section-title">Como Funciona</h2>
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <div class="step-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>Busque</h3>
+                    <p>Encontre o serviço que você precisa na sua região</p>
+                </div>
+                
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <div class="step-icon">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <h3>Agende</h3>
+                    <p>Escolha o horário que melhor te atende</p>
+                </div>
+                
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <div class="step-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h3>Confirme</h3>
+                    <p>Receba confirmação e lembrete do agendamento</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Mais de 100 mil pessoas usam e aprovam!</h2>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Gostaria de registrar minha enorme satisfação em relação ao Hope Agenda. Tenho uma clínica de estética e o sistema tem me ajudado muito em todas as questões. Só tenho a agradecer!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Dra. Eloise Moreira</h4>
+                            <p>Clínica Home Esthetics Brasil</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Ficou muito fácil marcar hora para ir ao salão. Adorei a ideia."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Anna Flávia</h4>
+                            <p>Cliente do Salão Bogart - Rio de Janeiro</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"O Hope Agenda é uma mão na roda. Não consigo mais imaginar ter que ligar para marcar um horário."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Danielle Dias</h4>
+                            <p>Cliente do Salão Muccillos - Copacabana</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- For Businesses -->
+    <section class="for-businesses" id="parceiros">
+        <div class="container">
+            <div class="business-content">
+                <div class="business-text">
+                    <h2>Prazer, somos a parceira dos negócios de beleza, saúde, dentário e petshop.</h2>
+                    <p>O Hope Agenda é mais que um sistema de gestão completo, tem tudo para você inovar na sua gestão, em um só lugar:</p>
+                    
+                    <ul class="features-list">
+                        <li><i class="fas fa-check"></i> Gestão prática de agenda online</li>
+                        <li><i class="fas fa-check"></i> Controle financeiro completo</li>
+                        <li><i class="fas fa-check"></i> Sistema de pagamentos integrado</li>
+                        <li><i class="fas fa-check"></i> Relatórios e analytics</li>
+                        <li><i class="fas fa-check"></i> App para clientes</li>
+                    </ul>
+                    
+                    <p>Junte-se a mais de 40 mil empreendedores de sucesso e bora dar um up com o Hope Agenda!</p>
+                    
+                    <button class="btn btn-primary btn-large">Teste grátis por 5 dias!</button>
+                </div>
+                
+                <div class="business-image">
+                    <img src="https://via.placeholder.com/500x400/6366F1/FFFFFF?text=Dashboard+Business" alt="Dashboard Business">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-book"></i>
+                        <span>Hope Agenda</span>
+                    </div>
+                    <p>Conectando clientes e profissionais de forma simples e eficiente.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Dúvidas</h3>
+                    <ul>
+                        <li><a href="#">Perguntas Frequentes</a></li>
+                        <li><a href="#">Fale Conosco</a></li>
+                        <li><a href="#">Termo de Uso</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Institucional</h3>
+                    <ul>
+                        <li><a href="#">Sobre Nós</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Política de Privacidade</a></li>
+                        <li><a href="#">Cadastre seu Estabelecimento</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Baixe o App</h3>
+                    <div class="app-downloads">
+                        <a href="#" class="app-download">
+                            <i class="fab fa-google-play"></i>
+                            <span>Google Play</span>
+                        </a>
+                        <a href="#" class="app-download">
+                            <i class="fab fa-apple"></i>
+                            <span>Apple Store</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Desenvolvedora Neidiman Raposo — Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
