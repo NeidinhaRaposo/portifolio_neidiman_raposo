@@ -1,30 +1,85 @@
-# 💼 Portfólio – Neidiman Raposo
 
-Este repositório contém o código-fonte do meu portfólio profissional como desenvolvedora, criado para apresentar meus principais projetos, habilidades e formas de contato.
+# 💼 Portfólio Profissional – Neidiman Raposo
 
-🌐 **Acesse o portfólio:**
-**https://neidinharaposo.github.io/neidiman_raposo/**
+![Status](https://img.shields.io/badge/Status-Em%20evolução-2ea44f?style=for-the-badge)
+![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=github&logoColor=white)
 
----
+Este repositório contém o código-fonte do meu portfólio profissional como desenvolvedora Full Stack com foco em Back-end, criado para apresentar minhas competências técnicas, formação acadêmica e projetos de desenvolvimento de software.
 
-## 👩‍💻 Sobre
-
-Sou estudante do último semestre de **Análise e Desenvolvimento de Sistemas**, formada em **Letras – Português/Inglês** e técnica em **Desenvolvimento de Sistemas**.
-
-Meu foco é o desenvolvimento de aplicações utilizando **Python**, com interesse especial em desenvolvimento **Back-end**, além de experiência na criação de interfaces web com HTML, CSS e JavaScript.
-
-Este portfólio reúne alguns dos projetos que representam minha evolução na área de tecnologia.
+🌐 **[Acesse meu portfólio profissional](https://neidinharaposo.github.io/neidiman_raposo/)**
 
 ---
 
-## 🚀 Tecnologias utilizadas
+## 👩‍💻 Sobre mim
 
-* HTML5
-* CSS3
-* JavaScript
-* Git
-* GitHub
-* GitHub Pages
+Sou desenvolvedora Full Stack com foco em Back-end, utilizando principalmente Python, Django e APIs REST.
+
+Tenho experiência em desenvolvimento de aplicações web, lógica de programação, bancos de dados, tratamento de dados, integração de sistemas, versionamento de código e orientação técnica em projetos de tecnologia.
+
+Busco desenvolver soluções eficientes, organizadas e funcionais, valorizando boas práticas de programação, documentação, qualidade de código e aprendizado contínuo.
+
+---
+
+## 🎓 Formação acadêmica
+
+| Formação | Situação |
+|---|---|
+| Tecnologia em Análise e Desenvolvimento de Sistemas | Em conclusão |
+| Pós-graduação em Banco de Dados | Concluída |
+| Pós-graduação em Java e PHP | Concluída |
+| Pós-graduação em .NET | Concluída |
+| Técnico em Desenvolvimento de Sistemas | Concluído |
+| Letras – Português/Inglês | Concluída |
+
+---
+
+## 🛠️ Competências técnicas
+
+### 💻 Back-end
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![REST API](https://img.shields.io/badge/REST%20API-005571?style=for-the-badge)
+
+### 🎨 Front-end
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+### 🗄️ Bancos de dados
+
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+
+### 📊 Tratamento e integração de dados
+
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![ETL](https://img.shields.io/badge/ETL-6A1B9A?style=for-the-badge)
+![JSON](https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=json&logoColor=white)
+
+### ⚙️ Ferramentas e versionamento
+
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Windows](https://img.shields.io/badge/Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white)
+
+---
+
+## 🚀 Tecnologias utilizadas neste portfólio
+
+| Tecnologia | Finalidade |
+|---|---|
+| HTML5 | Estrutura das páginas |
+| CSS3 | Estilização e identidade visual |
+| JavaScript | Interatividade |
+| Git | Controle de versão |
+| GitHub | Hospedagem do código-fonte |
+| GitHub Pages | Publicação do portfólio |
 
 ---
 
@@ -36,36 +91,58 @@ Sistema desenvolvido para auxiliar na organização e correção de redações, 
 
 ### 📅 Hope Agenda
 
-Aplicação para gerenciamento de agendamentos e compromissos, desenvolvida com foco em organização e usabilidade.
+Aplicação para gerenciamento de agendamentos e compromissos, desenvolvida com foco em organização, funcionalidade e usabilidade.
 
 ### 🔐 Sistema de Login e Cadastro
 
-Projeto desenvolvido utilizando Python (Flask), com autenticação de usuários, cadastro e gerenciamento de acesso.
+Aplicação desenvolvida utilizando Python e Flask, com funcionalidades de autenticação de usuários, cadastro e gerenciamento de acesso.
 
 ### 💻 Outros projetos
 
-O portfólio é atualizado constantemente com novos projetos desenvolvidos durante minha formação e estudos.
+Meu perfil no GitHub reúne projetos acadêmicos, pessoais e profissionais relacionados ao desenvolvimento de software, aplicações web, bancos de dados e integração de sistemas.
+
+🔗 **[Conheça meus repositórios](https://github.com/NeidinhaRaposo?tab=repositories)**
 
 ---
 
-## 🎯 Objetivo
+## 🎯 Áreas de interesse
 
-Este portfólio foi criado para apresentar minhas competências técnicas, minha evolução como desenvolvedora e servir como vitrine para oportunidades profissionais na área de desenvolvimento de software.
+- Desenvolvimento Back-end
+- Desenvolvimento Full Stack
+- Desenvolvimento e integração de APIs REST
+- Bancos de dados relacionais
+- Engenharia e tratamento de dados
+- Automação de processos
+- Inteligência Artificial
+- Computação em Nuvem
+- Desenvolvimento de soluções tecnológicas
+
+---
+
+## 📈 Evolução do portfólio
+
+Este portfólio está em constante evolução, acompanhando meu desenvolvimento profissional, minha formação acadêmica e a aquisição de novas competências técnicas.
+
+Novos projetos, funcionalidades e melhorias serão incorporados progressivamente.
 
 ---
 
 ## 📬 Contato
 
-* 💼 LinkedIn: https://www.linkedin.com/in/neidimanraposo
-* 💻 GitHub: https://github.com/NeidinhaRaposo
-* 📧 E-mail: *(adicione seu e-mail aqui, caso deseje disponibilizá-lo)*
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/neidimanraposo)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/NeidinhaRaposo)
+[![Portfólio](https://img.shields.io/badge/Portfólio-6A1B9A?style=for-the-badge&logo=googlechrome&logoColor=white)](https://neidinharaposo.github.io/neidiman_raposo/)
 
 ---
 
-## 📄 Licença
+## 📄 Direitos autorais
 
-Este projeto está disponível para fins de demonstração profissional. Caso tenha interesse em conhecer mais sobre algum projeto ou trocar experiências, fique à vontade para entrar em contato.
+Este repositório foi desenvolvido para fins de apresentação profissional e demonstração de competências técnicas.
+
+© 2026 Neidiman Raposo. Todos os direitos reservados.
 
 ---
 
-⭐ Se este projeto foi útil ou interessante para você, considere deixar uma estrela no repositório.
+⭐ Se você gostou deste projeto, considere deixar uma estrela no repositório.
+
+💜 Desenvolvido por Neidiman Raposo.
