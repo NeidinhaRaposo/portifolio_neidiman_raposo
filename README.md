@@ -129,7 +129,7 @@ Novos projetos, funcionalidades e melhorias serão incorporados progressivamente
 
 ## 📬 Contato
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/neidimanraposo)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/neidiman-raposo-b12ba9129/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/NeidinhaRaposo)
 [![Portfólio](https://img.shields.io/badge/Portfólio-6A1B9A?style=for-the-badge&logo=googlechrome&logoColor=white)](https://neidinharaposo.github.io/neidiman_raposo/)
 
