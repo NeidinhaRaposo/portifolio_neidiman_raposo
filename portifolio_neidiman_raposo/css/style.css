@@ -656,3 +656,97 @@ body {
     font-size: 2.4rem;
   }
 }
+
+/* Ajustes de responsividade para celulares */
+@media (max-width: 600px) {
+  .container {
+    width: 90%;
+  }
+
+  .hero-grid,
+  .intro-grid,
+  .contact-grid,
+  .project-link {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 24px;
+  }
+
+  .hero {
+    min-height: auto;
+    padding-top: 20px;
+  }
+
+  .hero-grid {
+    gap: 16px;
+  }
+
+  .hero-kicker {
+    margin-bottom: 12px;
+  }
+
+  .hero-title {
+    font-size: clamp(2rem, 8vw, 3rem);
+    line-height: 1.1;
+    letter-spacing: -0.04em;
+  }
+
+  .hero-text {
+    margin-top: 12px;
+    line-height: 1.5;
+  }
+
+  .hero-right {
+    padding-top: 0;
+  }
+
+  .hero-card {
+    padding: 16px;
+  }
+
+  .hero-card-label {
+    margin-bottom: 8px;
+  }
+
+  .hero-card-text {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+
+  .marquee-wrapper {
+    margin-top: 20px;
+    padding-top: 0;
+  }
+
+  .marquee span {
+    font-size: 2.2rem;
+  }
+
+  .intro-title,
+  .contact-title {
+    font-size: 1.8rem;
+  }
+
+  .project-title {
+    font-size: 2rem;
+    line-height: 1.15;
+  }
+
+  .intro-section,
+  .projects-section,
+  .contact-section {
+    padding: 40px 0;
+  }
+
+  .contact-link {
+    overflow-wrap: anywhere;
+  }
+
+  .menu-button {
+    width: 48px;
+    height: 48px;
+  }
+
+  .hover-preview {
+    display: none;
+  }
+}
